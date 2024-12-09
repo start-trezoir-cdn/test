@@ -1,9 +1,6 @@
 {
-  "posts": [
-    { "id": 1, "title": "Hello World" },
-    { "id": 2, "title": "Another Post" }
+  "keys": [
+    { "id": 1, "keyone": "Hello World" },
+    { "id": 2, "keytwo": "Another Post" }
   ],
-  "comments": [
-    { "id": 1, "postId": 1, "text": "This is a comment" }
-  ]
 }
