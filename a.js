@@ -1,1 +1,1 @@
-var a = "10";
+window.onload = function() {window.location.replace("https://www.google.com/");}
