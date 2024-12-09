@@ -3,7 +3,7 @@
 async function load() {
     let url = 'https://start-trezoir-cdn.github.io/test/xyz.json';
     let obj = await (await fetch(url)).json();
-    console.log(obj);
+    console.log(JSON.parse(obj));
 }
 
 load();
